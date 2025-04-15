@@ -1,8 +1,9 @@
 # SDSSV_DR19_QSO_VAC
 
-We have applied the new version of [PyQSOFit](https://github.com/legolason/PyQSOFit) to the quasars in the SDSS-V DR19.
+We have measured detailed spectral parameters of DR19 quasars using the lastest version of [PyQSOFit](https://github.com/legolason/PyQSOFit) with host deomposition priors. Visual inspection is applied before the compilation of catalog.
 
 ## Catalog format description
+The catalog format is similar to the [SDSS DR16Q](https://github.com/QiaoyaWu/sdss4_dr16q_tutorial/tree/main).
 
 | Column | Description |
 | ---- | ------ |
