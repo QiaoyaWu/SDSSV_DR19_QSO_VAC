@@ -2,6 +2,11 @@
 
 We have measured detailed spectral parameters of DR19 quasars using the lastest version of [PyQSOFit](https://github.com/legolason/PyQSOFit) with host deomposition priors. Visual inspection is applied before the compilation of catalog.
 
+## Tutorials
+Tutorial on how to read this VAC (TBD)
+
+Turorial on how to access/visionalize single spectral fits file (TBD)
+
 ## Catalog format description
 The catalog format is similar to the [SDSS DR16Q](https://github.com/QiaoyaWu/sdss4_dr16q_tutorial/tree/main).
 
@@ -30,29 +35,30 @@ The catalog format is similar to the [SDSS DR16Q](https://github.com/QiaoyaWu/sd
 | `Z_SYS_ERR` | Systemartic redshift err |
 | `SN_RATIO_CONTI` | SNR computed at continuum |
 | `EBV` | Milky Way extinction E(B − V) |
-| `CONTI_PARA` |  |
-| `CONTI_PARA_ERR` |  |
-| `FE_UV_PARA` |  |
-| `FE_UV_PARA_ERR` |  |
-| `FE_OP_PARA` |  |
-| `FE_OP_PARA_ERR` |  |
-| `LOGL1350` |  |
-| `LOGL1350_ERR` |  |
-| `LOGL1700` |  |
-| `LOGL1700_ERR` |  |
-| `LOGL2500` |  |
-| `LOGL2500_ERR` |  |
-| `LOGL3000` |  |
-| `LOGL3000_ERR` |  |
-| `LOGL4200` |  |
-| `LOGL4200_ERR` |  |
-| `LOGL5100` |  |
-| `LOGL5100_ERR` |  |
-| `CONTI_NPIX` |  |
-| `FRAC_HOST_4200` |  |
-| `FRAC_HOST_5100` |  |
-| `DN4000` |  |
-| `HOST_DECOMP_PARA` |  |
+| `CONTI_PARA` | Best-fit parameters for the continuum model |
+| `CONTI_PARA_ERR` | Uncertainties in the best-fit parameters for the continuum model |
+| `FE_UV_PARA` | Best-fit parameters for the UV FeII model |
+| `FE_UV_PARA_ERR` | Uncertainties in the best-fit parameters for the UV FeII model |
+| `FE_OP_PARA` | Best-fit parameters for the optical FeII model |
+| `FE_OP_PARA_ERR` | Uncertainties in the best-fit parameters for the optical FeII model |
+| `LOGL1350` | Continuum luminosity at rest-frame 1350Å |
+| `LOGL1350_ERR` | Uncertainties of the continuum luminosity at rest-frame 1350Å |
+| `LOGL1700` | ... |
+| `LOGL1700_ERR` | ... |
+| `LOGL2500` | ... |
+| `LOGL2500_ERR` | ... |
+| `LOGL3000` | ... |
+| `LOGL3000_ERR` | ... |
+| `LOGL4200` | ... |
+| `LOGL4200_ERR` | ... |
+| `LOGL5100` | ... |
+| `LOGL5100_ERR` | ... |
+| `CONTI_NPIX` | Pixel number of the continuum fitting |
+| `FRAC_HOST_4200` | Host galaxy flux fraction at 4200Å |
+| `FRAC_HOST_5100` | Host galaxy flux fraction at 5100Å |
+| `DN4000` | 4000Å break index |
+| `HOST_DECOMP_PARA` | The host galaxy decomposition eigenvalues |
+| | peak wavelength, flux, logL of lines, FWHM, rest-frame equivalent width, 50% flux centoid wavelength |
 | `HALPHA` |  |
 | `HALPHA_ERR` |  |
 | `HALPHA_BR` |  |
@@ -119,7 +125,7 @@ The catalog format is similar to the [SDSS DR16Q](https://github.com/QiaoyaWu/sd
 | `LYA_ERR` |  |
 | `NV1240` |  |
 | `NV1240_ERR` |  |
-| `Ha_STAT` |  |
+| `Ha_STAT` | Complex line window pixel number, reduced chi square |
 | `Hb_STAT` |  |
 | `Hr_STAT` |  |
 | `Hd_STAT` |  |
@@ -131,21 +137,21 @@ The catalog format is similar to the [SDSS DR16Q](https://github.com/QiaoyaWu/sd
 | `CaII_STAT` |  |
 | `OII_STAT` |  |
 | `NeV_STAT` |  |
-| `LOGLBOL` |  |
+| `LOGLBOL` | Bolometric luminosity |
 | `LOGLBOL_ERR` |  |
-| `LOGMBH_HB` |  |
+| `LOGMBH_HB` | Single-epoch BH mass using Hbeta |
 | `LOGMBH_HB_ERR` |  |
-| `LOGMBH_MGII` |  |
+| `LOGMBH_MGII` | Single-epoch BH mass using MgII |
 | `LOGMBH_MGII_ERR` |  |
-| `LOGMBH_CIV` |  |
+| `LOGMBH_CIV` | Single-epoch BH mass using CIV |
 | `LOGMBH_CIV_ERR` |  |
-| `LOGMBH` |  |
+| `LOGMBH` | Single-epoch BH mass |
 | `LOGMBH_ERR` |  |
-| `LOGLLEDD_RATIO` |  |
+| `LOGLLEDD_RATIO` | Eddington ratio |
 | `LOGLLEDD_RATIO_ERR` |  |
-| `ZSYS_BEST` |  |
+| `ZSYS_BEST` | Systematic redshift from the line zsys with the lowest errorbar |
 | `ZSYS_BEST_ERR` |  |
-| `ZSYS_WEIGHT` |  |
+| `ZSYS_WEIGHT` | Systematic redshift from the weighted mean |
 | `ZSYS_WEIGHT_ERR` |  |
-| `ZSYS_LINES` |  |
+| `ZSYS_LINES` | Systematic redshift from Hβ_BR, [OIII]5007, CaII3934, [OII]3728, MgII, CIII], CIV, SiIV |
 | `ZSYS_LINES_ERR` |  |
