@@ -14,7 +14,7 @@ The composite spectra for large velocity discrepancy objects:
 ![The composite spectra for large velocity discrepancy objects](https://github.com/QiaoyaWu/SDSSV_DR19_QSO_VAC/blob/main/composite_spec.png)
 
 The distribution of redshift:
-![The distribution of redshift](https://github.com/QiaoyaWu/SDSSV_DR19_QSO_VAC/blob/main/zhist.png =x100)
+![The distribution of redshift](https://github.com/QiaoyaWu/SDSSV_DR19_QSO_VAC/blob/main/zhist.png)
 
 ## Catalog format description
 The catalog format is similar to the [SDSS DR16Q](https://github.com/QiaoyaWu/sdss4_dr16q_tutorial/tree/main).
