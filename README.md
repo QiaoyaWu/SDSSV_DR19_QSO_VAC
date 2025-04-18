@@ -10,11 +10,9 @@ We have measured detailed spectral parameters of DR19 quasars using the latest v
 ## Systematic redshift
 We applied the same recipe as described in the [SDSS DR16Q catalog](https://iopscience.iop.org/article/10.3847/1538-4365/ac9ead/meta) and [DESI EDR catalog](https://iopscience.iop.org/article/10.3847/2515-5172/acf580/meta). (There might be future updates on the method, especially for low-$z$ objects.)
 
-Inline-style: 
-![alt text]([https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png](https://github.com/QiaoyaWu/SDSSV_DR19_QSO_VAC/blob/main/zhist.jpg) "Logo Title Text 1")
+![The composite spectra for large velocity discrepancy objects](https://github.com/QiaoyaWu/SDSSV_DR19_QSO_VAC/blob/main/composite_spec.png)
 
-![image](https://github.com/QiaoyaWu/SDSSV_DR19_QSO_VAC/blob/main/composite_spec.png)
-
+![The distribution of redshift](https://github.com/QiaoyaWu/SDSSV_DR19_QSO_VAC/blob/main/zhist.png)
 
 ## Catalog format description
 The catalog format is similar to the [SDSS DR16Q](https://github.com/QiaoyaWu/sdss4_dr16q_tutorial/tree/main).
