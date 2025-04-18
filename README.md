@@ -13,9 +13,9 @@ We applied the same recipe as described in the [SDSS DR16Q catalog](https://iops
 ![]([https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png](https://github.com/QiaoyaWu/SDSSV_DR19_QSO_VAC/blob/main/composite_spec.pdf) | width=100)
 <img src="[drawing.jpg](https://github.com/QiaoyaWu/SDSSV_DR19_QSO_VAC/blob/main/composite_spec.pdf)" alt="drawing" width="200"/>
 
-![The composite spectra for large velocity discrepancy objects](https://github.com/QiaoyaWu/SDSSV_DR19_QSO_VAC/blob/main/composite_spec.pdf)
+![The composite spectra for large velocity discrepancy objects](https://github.com/QiaoyaWu/SDSSV_DR19_QSO_VAC/blob/main/composite_spec.pdf| width=100)
 
-![The histogram of the systematic redshift.](https://github.com/QiaoyaWu/SDSSV_DR19_QSO_VAC/blob/main/zhist.pdf)
+![The histogram of the systematic redshift.](https://github.com/QiaoyaWu/SDSSV_DR19_QSO_VAC/blob/main/zhist.pdf| width=100)
 
 
 ## Catalog format description
