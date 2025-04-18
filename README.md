@@ -12,6 +12,9 @@ We applied the same recipe as described in the [SDSS DR16Q catalog](https://iops
 
 ![The composite spectra for large velocity discrepancy objects]([https://github.com/QiaoyaWu/SDSSV_DR19_QSO_VAC/blob/main/composite_spec.jpg)
 
+![zhist](https://github.com/user-attachments/assets/6d421245-7c46-4ba1-b942-48879a15d321)
+
+
 ![https://github.com/QiaoyaWu/SDSSV_DR19_QSO_VAC/blob/main/zhist.jpg](The histogram of the systematic redshift. | width=100)
 
 
