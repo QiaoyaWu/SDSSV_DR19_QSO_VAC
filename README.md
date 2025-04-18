@@ -7,6 +7,8 @@ We have measured detailed spectral parameters of DR19 quasars using the latest v
 
 [Tutorial on how to visualize a single spectral fits file](https://github.com/QiaoyaWu/SDSSV_DR19_QSO_VAC/blob/main/how_to_access_fits.ipynb)
 
+You can also refer to [SDSS DR16Q github](https://github.com/QiaoyaWu/sdss4_dr16q_tutorial/tree/main) for more information.
+
 ## Systematic redshift
 We applied the same recipe as described in the [SDSS DR16Q catalog](https://iopscience.iop.org/article/10.3847/1538-4365/ac9ead/meta) and [DESI EDR catalog](https://iopscience.iop.org/article/10.3847/2515-5172/acf580/meta). (There might be future updates on the method, especially for low-$z$ objects.)
 
@@ -17,7 +19,7 @@ The distribution of redshift:
 ![The distribution of redshift](https://github.com/QiaoyaWu/SDSSV_DR19_QSO_VAC/blob/main/zhist.png)
 
 ## Catalog format description
-The catalog format is similar to the [SDSS DR16Q](https://github.com/QiaoyaWu/sdss4_dr16q_tutorial/tree/main).
+The catalog format is similar to what we show in [SDSS DR16Q github](https://github.com/QiaoyaWu/sdss4_dr16q_tutorial/tree/main).
 
 | Column | Description |
 | ---- | ------ |
