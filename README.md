@@ -13,6 +13,8 @@ We applied the same recipe as described in the [SDSS DR16Q catalog](https://iops
 Inline-style: 
 ![alt text]([https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png](https://github.com/QiaoyaWu/SDSSV_DR19_QSO_VAC/blob/main/zhist.jpg) "Logo Title Text 1")
 
+![image](https://github.com/QiaoyaWu/SDSSV_DR19_QSO_VAC/blob/main/composite_spec.png)
+
 
 ## Catalog format description
 The catalog format is similar to the [SDSS DR16Q](https://github.com/QiaoyaWu/sdss4_dr16q_tutorial/tree/main).
