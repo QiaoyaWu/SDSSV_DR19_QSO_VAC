@@ -5,7 +5,7 @@ We have measured detailed spectral parameters of DR19 quasars using the latest v
 ## Tutorials
 [Tutorial on how to read this VAC](https://github.com/QiaoyaWu/SDSSV_DR19_QSO_VAC/blob/main/how_to_use_the_VAC.ipynb)
 
-[Tutorial on how to visualize a single spectral fits file](https://github.com/QiaoyaWu/SDSSV_DR19_QSO_VAC/blob/main/how_to_access_fits.ipynb)
+[Tutorial on how to visualize a single spectral fits file](https://github.com/QiaoyaWu/SDSSV_DR19_QSO_VAC/blob/main/how_to_visualize_fits.ipynb)
 
 You can also refer to [SDSS DR16Q github](https://github.com/QiaoyaWu/sdss4_dr16q_tutorial/tree/main) for more information.
 
